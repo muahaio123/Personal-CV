@@ -1,0 +1,58 @@
+body {
+  background-color: #66dbbfa9;
+  margin: 0;
+  padding: 1% 4% 1% 4%;
+  zoom: 110%;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: #66e0bf;
+  width: 50%;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  transition: 0.3s;
+}
+
+h1:hover {
+  color: #ff5578;
+}
+
+h2 {
+  color: #ff5578;
+  font-family: "Georgia", Helvetica, serif;
+}
+
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ff5578;
+}
+
+img {
+  transition: 0.3s;
+  border-radius: 15%;
+}
+
+img:hover {
+  background-color: #66e0bf;
+}
+
+li {
+  transition: 0.3s;
+}
+
+li:hover {
+  color: #ff5578;
+}
+
+/*
+use '.' for class selector, can have multiple elements in 1 class or vice versa (multiple class for 1 element), more powerful than tag selector. Ex: .edu {}
+use '#' for id selector, unique ID (most power ful). Ex: #info {}
+*/
